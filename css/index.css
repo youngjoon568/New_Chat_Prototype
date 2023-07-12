@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #121212;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #aaa;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.app {
+    width: 390px;
+    height: 844px;
+    position: relative;
+    background: #fff;
+}
+
+.app-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    z-index: 9999999999;
+}
+
+.footer-icons {
+    height: 25px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons a {
+    display: block;
+    height: 25px;
+}
+
+.footer-icons i {
+    font-size: 24px;
+}
